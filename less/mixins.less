@@ -4,4 +4,15 @@
 //   color: lighten(@color, 10%);
 
 
-@mobile: ~(max-width: 500px);
+
+@phone: ~ '(max-width: 500px)';
+
+.btn() {
+  display:block;
+  background: @eastern-blue;
+  padding:8%;
+  border-radius:7px;
+  color:white;
+  text-align: center;
+  font-size:1.7rem;
+}

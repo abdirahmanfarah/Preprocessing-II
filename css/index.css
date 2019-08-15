@@ -163,23 +163,21 @@ img {
   max-width: 100%;
   height: auto;
 }
-.super-container {
-  width: 100%;
-}
-.super-container .container {
+.container {
   max-width: 800px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 .nav-container {
+  margin: 32px auto 0px;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  border-bottom: 2px dashed grey;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed #C0C0C0;
   align-content: center;
-  margin-top: 50px;
 }
 .nav-container h1 {
+  display: flex;
   margin-right: 275px;
 }
 .nav-container .nav-bar {
@@ -211,6 +209,10 @@ img {
   width: 80%;
   margin: 0 auto 30px;
 }
+.home .fun-bus .about {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-top: 20px;
+}
 .home .content-section {
   width: 80%;
   margin: 0 auto 30px;
@@ -230,6 +232,8 @@ img {
   border-radius: 10px;
 }
 .home .inverse-content {
+  width: 80%;
+  margin: 0 auto 30px;
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
@@ -257,6 +261,15 @@ img {
   justify-content: space-between;
 }
 .home .content-pick .destination {
-  width: 30%;
+  width: 24%;
   margin-bottom: 30px;
+}
+.home .btn {
+  display: block;
+  background: #17A2B8;
+  padding: 8%;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
 }
