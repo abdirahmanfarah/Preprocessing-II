@@ -1,17 +1,32 @@
 // Navigation Styles here
 
+
+.super-nav {
+width:100%;
+border-bottom:2px dashed @navigation-border;
+
+@media @phone{
+  width:100%;
+}
+
 .nav-container {
   margin:32px auto 0px;
   width: 100%;
+  max-width: 800px;
   display:flex;
-  justify-content: space-evenly;
-  border-bottom:2px dashed @navigation-border;
+  justify-content: space-between;
   align-content: center;
 
+   @media @phone {
+     width:100%;
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:space-around;
+   }
+
   h1{
-    display:flex;
-     margin-right:275px;
-  
+    padding:8px 0px;
+
   }
   .nav-bar {
     display:flex;
@@ -28,4 +43,5 @@
     }
   }
   
+}
 }
