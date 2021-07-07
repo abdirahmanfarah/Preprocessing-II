@@ -1,1 +1,23 @@
 // Mixins in here
+
+// .lighten(light; @color) {
+//   color: lighten(@color, 10%);
+
+
+
+@phone: ~ '(max-width: 500px)';
+
+.btn() {
+  display:block;
+  background: @eastern-blue;
+  padding:8%;
+  border-radius:18px;
+  color:white;
+  text-align: center;
+  font-size:1.7rem;
+
+  @media @phone {
+    padding:5%;
+
+  }
+}
